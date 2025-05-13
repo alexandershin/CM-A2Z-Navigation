@@ -1,0 +1,73 @@
+#navList {
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#navList li {
+  margin: 1rem 2rem;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: rem;
+}
+
+#navList li.active {
+  color: #000;
+}
+
+#navList li:hover:not(.active) {
+  color: #4a90e2;
+}
+
+#cityNav {
+  position: relative;
+}
+
+#slideBar {
+  position: absolute;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+#clockDisplay {
+  margin-top: 20px;
+  line-height: 1.4;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.city-name {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.city-time {
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+@media (max-width: 944px) {
+  #navList {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navList li {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+
+  #slideBar {
+    left: 0;
+    top: 0;
+    width: 2px;
+  }
+}

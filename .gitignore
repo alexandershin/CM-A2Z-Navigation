@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+
+# Build files
+/build/
+/dist/
+
+# macOS specific
+/Library/
+/Movies/
+/Downloads/
+/Desktop/
+
+# Exclude IDE or editor files
+.vscode/
+.idea/
