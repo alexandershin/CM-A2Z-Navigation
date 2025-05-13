@@ -16,13 +16,6 @@ You're building an editorial piece that lets users explore different cities arou
 - Optimized specifically for **Safari**.
 - Bonus: Displays the current time of the selected city.
 
-## 📁 Project Structure
-project-folder/
-├── index.html
-├── style.scss # or style.css
-├── script.js
-└── cities.json # Provided data about cities
-
 ## 🚀 Getting Started
 
 To run this locally:
