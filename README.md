@@ -22,5 +22,5 @@ To run this locally:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/alexandershin/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/alexandershin/CM-A2Z-Navigation
+cd CM-A2Z-Navigation
